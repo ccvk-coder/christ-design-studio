@@ -203,8 +203,9 @@ function Hero() {
 
         <Reveal delay={0.05}>
           <h1 className="mx-auto mt-8 max-w-5xl text-center font-display text-[42px] font-semibold leading-[1.02] tracking-[-0.03em] text-white sm:text-6xl md:text-7xl lg:text-[88px]">
-            Designing Digital <br className="hidden sm:block" />
-            Experiences That <span className="text-gradient italic">{"\n"}People Love.</span>
+            Designing Digital <br />
+            Experiences That&nbsp; <br />
+            <span className="text-gradient italic">People Love.</span>
           </h1>
         </Reveal>
 
