@@ -8,7 +8,8 @@ import {
   MousePointerClick, ChevronRight, Star, Compass, Layers, Lightbulb,
   Wand2, Rocket, TestTube2, MonitorPlay, Quote, Check,
 } from "lucide-react";
-import profileImg from "@/assets/profile.jpg";
+import profileAsset from "@/assets/profile.jpg.asset.json";
+const profileImg = profileAsset.url;
 import heroBg from "@/assets/hero-bg.jpg";
 import p1 from "@/assets/project-1.jpg";
 import p2 from "@/assets/project-2.jpg";
