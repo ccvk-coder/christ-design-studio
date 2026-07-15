@@ -744,7 +744,7 @@ const TESTIMONIALS = [
   },
   {
     quote: "The research phase alone was worth twice the fee. He surfaced problems we didn't know we had and turned them into product wins.",
-    name: "Priya Ramanathan", role: "Head of Design, Fable Health",
+    name: "Wacky Hojil", role: "Head of Design, Fable Health",
   },
   {
     quote: "Calm, thoughtful, incredibly responsive. Working with Christ feels like adding a senior partner, not a contractor.",
