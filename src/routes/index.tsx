@@ -134,7 +134,7 @@ function Navbar() {
               <Sparkles className="h-4 w-4" />
             </span>
             <span className="font-display text-[15px] font-semibold tracking-tight text-white">
-              Christ<span className="text-[#A1A1AA]">.design</span>
+              Christ<span className="text-[#A1A1AA]">.Design</span>
             </span>
           </a>
           <ul className="hidden items-center gap-1 md:flex">
@@ -204,7 +204,7 @@ function Hero() {
         <Reveal delay={0.05}>
           <h1 className="mx-auto mt-8 max-w-5xl text-center font-display text-[42px] font-semibold leading-[1.02] tracking-[-0.03em] text-white sm:text-6xl md:text-7xl lg:text-[88px]">
             Designing Digital <br className="hidden sm:block" />
-            Experiences That <span className="text-gradient italic">People Love.</span>
+            Experiences That <span className="text-gradient italic">{"\n"}People Love.</span>
           </h1>
         </Reveal>
 
@@ -322,8 +322,8 @@ function SectionTitle({ eyebrow, title, sub }: { eyebrow: string; title: ReactNo
 
 function About() {
   const stats = [
-    { label: "Years Experience", value: 8, suffix: "+" },
-    { label: "Projects Completed", value: 120, suffix: "+" },
+    { label: "Years Experience", value: 3, suffix: "+" },
+    { label: "Projects Completed", value: 30, suffix: "+" },
     { label: "Happy Clients", value: 60, suffix: "+" },
     { label: "Design Systems Built", value: 14, suffix: "" },
   ];
@@ -734,11 +734,11 @@ function Tools() {
 const TESTIMONIALS = [
   {
     quote: "Christ raised our product quality bar overnight. His systems thinking gave the team a shared language and cut design debt in half.",
-    name: "Amelia Chen", role: "VP Product, Northwind SaaS",
+    name: "MChen", role: "VP Product, Northwind SaaS",
   },
   {
     quote: "Rare combination of taste, rigor and shipping ability. He designed and coded the entire dashboard in six weeks — pixel-perfect.",
-    name: "Marcus Delacroix", role: "CTO, Halcyon Analytics",
+    name: "Mark Harvey", role: "CTO, Halcyon Analytics",
   },
   {
     quote: "The research phase alone was worth twice the fee. He surfaced problems we didn't know we had and turned them into product wins.",
@@ -832,8 +832,8 @@ function Contact() {
 
             <div className="mt-10 space-y-4">
               {[
-                { icon: Mail, k: "Email", v: "hello@christ.design" },
-                { icon: Phone, k: "Phone", v: "+1 (555) 010-2026" },
+                { icon: Mail, k: "Email", v: "cv@asuratechsolutions.com" },
+                { icon: Phone, k: "Phone", v: "+63 (960) 683-0934" },
                 { icon: MapPin, k: "Location", v: "Remote · Available worldwide" },
               ].map((c, i) => (
                 <Reveal key={c.k} delay={0.05 * i}>
