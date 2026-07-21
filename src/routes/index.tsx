@@ -339,7 +339,7 @@ function About() {
               <div className="absolute -inset-6 -z-10 rounded-[2rem] bg-gradient-to-br from-[#2563EB]/40 via-[#4F46E5]/20 to-[#06B6D4]/30 blur-2xl" />
               <div className="gradient-border relative overflow-hidden rounded-[1.75rem] bg-[#18181B]">
                 <img
-                  src={profileImg}
+                  src={me-profile.jpg}
                   alt="Portrait of Christ, UX/UI Designer & Frontend Developer"
                   width={1024}
                   height={1280}
