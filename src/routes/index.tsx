@@ -734,19 +734,19 @@ function Tools() {
 const TESTIMONIALS = [
   {
     quote: "Christ raised our product quality bar overnight. His systems thinking gave the team a shared language and cut design debt in half.",
-    name: "MChen", role: "VP Product, Northwind SaaS",
+    name: "Denzk", role: "Seo Specialist",
   },
   {
     quote: "Rare combination of taste, rigor and shipping ability. He designed and coded the entire dashboard in six weeks — pixel-perfect.",
-    name: "Mark Harvey", role: "CTO, Halcyon Analytics",
+    name: "Mark Harvey", role: "CEO/ Architect Solutions - Asuratech Solutions",
   },
   {
     quote: "The research phase alone was worth twice the fee. He surfaced problems we didn't know we had and turned them into product wins.",
-    name: "Wacky Hojilla", role: "Head of Design, Fable Health",
+    name: "Wacky Hojilla", role: "COO/ Head Developer / Brand Ambassador - Asuratech Solutions",
   },
   {
     quote: "Calm, thoughtful, incredibly responsive. Working with Christ feels like adding a senior partner, not a contractor.",
-    name: "Jonas Weber", role: "Founder, Studio Kernel",
+    name: "Amado Serrano", role: "Network Engineer - MadoxTech",
   },
 ];
 
@@ -832,7 +832,7 @@ function Contact() {
 
             <div className="mt-10 space-y-4">
               {[
-                { icon: Mail, k: "Email", v: "cv@asuratechsolutions.com" },
+                { icon: Mail, k: "Email", v: "ccvkyle@gmail.com" },
                 { icon: Phone, k: "Phone", v: "+63 (960) 683-0934" },
                 { icon: MapPin, k: "Location", v: "Remote · Available worldwide" },
               ].map((c, i) => (
